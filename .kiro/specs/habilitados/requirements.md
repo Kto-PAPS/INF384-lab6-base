@@ -44,9 +44,9 @@ Funcionalidad para consultar qué cursos de la malla quedan habilitados para mat
 
 > Decisión: "todos aprobados" es un estado válido. Responder `[]` es semánticamente correcto.
 
-2.3 SI `aprobados` contiene algún código que no existe en `data/cursos.json`, EL sistema DEBE responder HTTP 400 con `{ "error": "código desconocido: <codigo>" }`.
+2.3 SI `aprobados` contiene algún código que no existe en `data/cursos.json`, EL sistema DEBE responder HTTP 400 con `{ "error": "código de curso desconocido" }`.
 
-> Decisión: el producto tiene alcance cerrado (plan 2026-1 de Ingeniería Informática, 87 cursos) y no contempla equivalencias externas ni planes anteriores. Un código desconocido indica un error del cliente. El mensaje incluye el primer código inválido encontrado para facilitar la corrección, sin reflejar contenido adicional ni exponer información interna.
+> Decisión: el producto tiene alcance cerrado y no contempla equivalencias externas ni planes anteriores. Se devuelve un mensaje fijo para evitar reflejar entradas proporcionadas por el cliente.
 
 2.4 CUANDO `aprobados` contenga códigos duplicados, EL sistema DEBE comportarse como si cada código apareciera una sola vez, sin devolver error ni alterar el resultado esperado.
 
@@ -84,7 +84,7 @@ Funcionalidad para consultar qué cursos de la malla quedan habilitados para mat
 
 #### Criterios de aceptación
 
-4.1 SI el array `aprobados` supera 100 elementos, EL sistema DEBE rechazar la petición con HTTP 400 sin procesar la lista, para evitar consumo excesivo de CPU y memoria.
+4.1 SI el array `aprobados` supera 100 elementos, EL sistema DEBE rechazar la petición con HTTP 400 antes de deduplicar los códigos o consultar el repositorio.
 
 4.2 SI ocurre un error interno no controlado durante el procesamiento de `POST /habilitados`, EL sistema DEBE responder HTTP 500 con `{ "error": "error interno del servidor" }` sin incluir el stack trace, rutas del sistema de archivos ni mensajes de excepción internos.
 
