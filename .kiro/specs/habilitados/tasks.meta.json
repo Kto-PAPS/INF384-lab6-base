@@ -24,6 +24,290 @@
         "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
         "timestamp": 1795730995052
       }
+    ],
+    "2.1 Crear el archivo `src/util/validarAprobados.js` con la función `validarAprobados(aprobados)`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731157130
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731163744
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731201145
+      }
+    ],
+    "2.2 Escribir tests unitarios para `validarAprobados`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731157319
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731204407
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731266563
+      }
+    ],
+    "3.1 Crear el archivo `src/routes/habilitados.js` con el handler `POST /`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731157508
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731207795
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731268898
+      }
+    ],
+    "4.1 Montar el nuevo router y ampliar el middleware de error global": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731157641
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731272216
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731330205
+      }
+    ],
+    "5. Checkpoint — verificar que los tests de regresión pasan": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731157777
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731333058
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731357291
+      }
+    ],
+    "6.1 Añadir los tests de forma de respuesta y filtro funcional (Property 1 y Property 2)": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731157887
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731360468
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731447363
+      }
+    ],
+    "6.2 Añadir el test de caso ejemplo fijo": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158038
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731362990
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731450096
+      }
+    ],
+    "6.3 Añadir los tests de casos borde funcionales": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158166
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731365406
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731452715
+      }
+    ],
+    "6.4 Añadir test de idempotencia de deduplicación (Property 3)": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158294
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731456238
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731801014
+      }
+    ],
+    "6.5 Añadir los tests de validación de entrada": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158424
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731458984
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731803148
+      }
+    ],
+    "6.6 Añadir el test de no-reflexión (Property 4)": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158575
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731805689
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731856216
+      }
+    ],
+    "6.7 Añadir los tests de seguridad": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158757
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731807746
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731858276
+      }
+    ],
+    "7. Checkpoint — suite completa en verde con cobertura ≥ 80 %": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158846
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731860681
+      },
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731894362
+      }
+    ],
+    "8.1 Añadir el job `sca` independiente del job `build`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731158984
+      }
+    ],
+    "8.2 Añadir el job `secrets` independiente de `build` y `sca`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731159108
+      }
+    ],
+    "9.1 Verificar estado inicial de auditoría SCA": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731159219
+      }
+    ],
+    "9.2 Demostración controlada del ciclo rojo-verde de Gitleaks": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731159362
+      }
+    ],
+    "10. Actualizar `TRAZABILIDAD.md` con evidencias reales": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731159507
+      }
+    ],
+    "2. Implementar `src/util/validarAprobados.js`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731266634
+      }
+    ],
+    "3. Implementar `src/routes/habilitados.js`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731268950
+      }
+    ],
+    "4. Modificar `src/app.js`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731330265
+      }
+    ],
+    "6. Completar la suite de integración en `tests/habilitados.test.js`": [
+      {
+        "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795731858316
+      }
     ]
   }
 }
