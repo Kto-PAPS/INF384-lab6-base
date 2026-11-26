@@ -251,6 +251,16 @@
         "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
         "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
         "timestamp": 1795731158984
+      },
+      {
+        "executionId": "a9d18486-c03a-483e-acad-9efc993d4a1f",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795732025072
+      },
+      {
+        "executionId": "a9d18486-c03a-483e-acad-9efc993d4a1f",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795732085541
       }
     ],
     "8.2 Añadir el job `secrets` independiente de `build` y `sca`": [
@@ -258,6 +268,16 @@
         "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
         "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
         "timestamp": 1795731159108
+      },
+      {
+        "executionId": "a9d18486-c03a-483e-acad-9efc993d4a1f",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795732027214
+      },
+      {
+        "executionId": "a9d18486-c03a-483e-acad-9efc993d4a1f",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795732087609
       }
     ],
     "9.1 Verificar estado inicial de auditoría SCA": [
@@ -307,6 +327,13 @@
         "executionId": "2da06432-66ea-42a5-8ff2-7ae3bd377ad7",
         "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
         "timestamp": 1795731858316
+      }
+    ],
+    "8. Actualizar `.github/workflows/ci.yml`": [
+      {
+        "executionId": "a9d18486-c03a-483e-acad-9efc993d4a1f",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795732087658
       }
     ]
   }
