@@ -6,8 +6,8 @@ Implementación incremental del endpoint `POST /habilitados`. El orden respeta l
 
 ## Tasks
 
-- [ ] 1. Escribir los tests de regresión en fase roja
-  - [ ] 1.1 Crear `tests/habilitados.test.js` con los cuatro tests de regresión que deben fallar antes de la implementación
+- [x] 1. Escribir los tests de regresión en fase roja
+  - [x] 1.1 Crear `tests/habilitados.test.js` con los cuatro tests de regresión que deben fallar antes de la implementación
     - Test 12 (hallazgo #3): `{"aprobados": "1INF25"}` (string, no array) debe devolver HTTP 400 con `{ "error": "el campo aprobados es requerido y debe ser un array" }`. Sin la implementación correcta este caso produce HTTP 500 o resultados incorrectos.
     - Test 15 (hallazgo #1): array de 5000 elementos repetidos debe devolver HTTP 400 sin consultar el repositorio. Sin la implementación este endpoint aún no existe (HTTP 404); el test registra ese fallo como evidencia de fase roja.
     - Test 17 (hallazgo #2): `"1INF30<script>"` como elemento de `aprobados` debe devolver HTTP 400 con exactamente `{ "error": "formato de código inválido" }` y el body no debe contener la cadena `<script>`. Sin la implementación este caso produce HTTP 500 con stack trace expuesto.

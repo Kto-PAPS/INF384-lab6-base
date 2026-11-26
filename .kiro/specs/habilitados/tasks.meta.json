@@ -1,0 +1,29 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Escribir los tests de regresión en fase roja": [
+      {
+        "executionId": "51d77cd8-0d27-44d2-ae70-4bc98536b964",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795730944193
+      },
+      {
+        "executionId": "51d77cd8-0d27-44d2-ae70-4bc98536b964",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795730995107
+      }
+    ],
+    "1.1 Crear `tests/habilitados.test.js` con los cuatro tests de regresión que deben fallar antes de la implementación": [
+      {
+        "executionId": "51d77cd8-0d27-44d2-ae70-4bc98536b964",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795730946747
+      },
+      {
+        "executionId": "51d77cd8-0d27-44d2-ae70-4bc98536b964",
+        "chatSessionId": "sess_dd6bf49c-7215-438d-ada2-a08775bb0ea1",
+        "timestamp": 1795730995052
+      }
+    ]
+  }
+}
